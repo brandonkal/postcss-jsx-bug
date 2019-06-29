@@ -1,0 +1,21 @@
+{
+  "name": "postcss-jsx-bug",
+  "description": "demonstrates that a babelrc will break linting",
+  "private": true,
+  "version": "1.0.0",
+  "main": "bug.jsx",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/plugin-transform-typescript": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "stylelint": "^10.1.0",
+    "stylelint-config-prettier": "^5.2.0",
+    "stylelint-config-recommended": "^2.2.0",
+    "stylelint-config-standard": "^18.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5"
+  }
+}
